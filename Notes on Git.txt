@@ -1,0 +1,26 @@
+$ git remote add origin https://github.com/alantelford/DataScienceCoursera.git
+
+admin@ADMIN-PC /d/users/admin/Documents/GitHub/DataScienceRepo (master)
+$ git push -u origin master
+Username for 'https://github.com': alantelford
+Password for 'https://alantelford@github.com':
+Counting objects: 10, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (10/10), 1.24 KiB | 0 bytes/s, done.
+Total 10 (delta 2), reused 0 (delta 0)
+To https://github.com/alantelford/DataScienceCoursera.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+admin@ADMIN-PC /d/users/admin/Documents/GitHub/DataScienceRepo (master)
+$ git add .
+
+admin@ADMIN-PC /d/users/admin/Documents/GitHub/DataScienceRepo (master)
+$ git commit  -m "added a notes doc"
+[master a901dce] added a notes doc
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Notes on Git.txt
+
+admin@ADMIN-PC /d/users/admin/Documents/GitHub/DataScienceRepo (master)
+$
